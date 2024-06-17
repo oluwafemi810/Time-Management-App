@@ -1,0 +1,79 @@
+p{ 
+    margin: 0;
+}
+button{
+    cursor: pointer;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 180px;
+}
+.app_thumbnail{
+    width: 186px;
+    opacity: 0.8;
+}
+.task{
+    margin-top: 10px;
+}
+.first-task{
+    font-style: italic;
+    color: grey;
+}
+.add-task{
+    position: relative;
+}
+.add-task-button{
+    position: absolute;
+    top: 65px;
+    right: 50px;
+    width: 45px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: transparent;
+}
+.add-task-image:hover{
+    opacity: 0.4;
+}
+
+
+.microphone-image{
+    width: 30px;
+}
+
+
+.search_input{
+    background-color: transparent;
+    border: solid;
+    border-color: transparent;
+    text-decoration: underline;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.add-task-image{
+    width: 65px;
+}
+.footer{
+    border-bottom-right-radius : 25px;
+    border-bottom-left-radius : 25px;
+    height: 60px;
+    background-color: rgb(96, 209, 243);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+}
+
+.arrow-division{
+    position: relative;
+}
+
+.arrow{
+    position: absolute;
+    left: -25px;
+}

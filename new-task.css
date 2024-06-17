@@ -1,0 +1,123 @@
+p,
+.drop-down-option{
+    margin: 0;
+    font-family: Poppins;
+}
+body{
+    margin: 0;
+}
+.container{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.app-division-add-first-task{
+    width: 375px;
+    border-style: none;
+    height: 670px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.add-first-task-header{
+    border-top-right-radius : 25px;
+    border-top-left-radius : 25px;
+    height: 60px;
+    background-color: rgb(96, 209, 243);
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.back-icon{
+    margin-left: 20px;
+    width: 30px;
+}
+.newtask{
+    color: white;
+    font-weight: bolder;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.prompt-user{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.task-to-be-added,
+.due-date{
+    color: rgb(96, 209, 243);
+    font-weight: 500;
+    font-size: 20px;
+}
+.line {
+    border-top: 2px solid rgb(96, 209, 243); /* You can adjust the color, width, and style */
+    width: 300px; /* Adjust the width of the line */
+    margin-right: 15px;
+  }
+.user-task-input{
+    border: none;
+    font-size: 18px;
+    width: 300px;
+}
+.user-input-division{
+    margin-top: 15px;
+    display: flex;
+    
+}
+.user-task{
+    margin-bottom: 60px;
+}
+.mic{
+    filter: invert();
+    width: 20px;
+
+}
+.date-image{
+    width: 20px;
+}
+
+.notification{
+    text-decoration: underline;
+    color: rgb(96, 209, 243);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.add-to-list{
+    margin-top: 30px;
+}
+
+.adding-to-list{
+    color: rgb(96, 209, 243);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.user-preference-select{
+    padding-right: 90px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: transparent;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: white;
+    padding-left: 0;
+    font: Poppins;
+}
+.user-preference-division{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.done-button{
+    position: absolute;
+    right: 40px;
+    bottom: 65px; 
+}
+.done-image{
+    width: 50px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Add New Task
+        </title>
+        <link rel="stylesheet" href="new-task.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="app-division-add-first-task">
+                <div class="add-first-task-header">
+                    <a href="index.html"> <img class="back-icon" src="ep--back.svg"> </a> 
+                    <p class="newtask">
+                        New Task
+                  </p>                                   
+                </div>
+
+                <div class="prompt-user">
+                    <div class="user-task">
+                        <p class="task-to-be-added">
+                            What is to be done?
+                        </p>
+                        <div class="user-input-division">
+                            <div class="user-task-input-divison">
+                                <input class="user-task-input" type="text" id = "task" placeholder="Enter a task here">
+                                <div class="line"></div>
+                            </div>
+                            <img class="mic" src="ph--microphone-bold.svg"> 
+                        </div>
+                    </div>
+                    <div class="user-task">
+                        <p class="due-date">
+                            Due Date
+                        </p>
+                        <div class="user-input-division">
+                            <div class="user-task-input-divison">
+                                <input class="user-task-input" type="text" id = "task" placeholder="Date not Set">
+                                <div class="line"></div>
+                            </div>
+                            <img class="date-image" src="fontisto--date.svg"> 
+                        </div>
+                    </div>
+
+                    <div class="notification-division">
+                        <p class="notification"> Notifications </p>
+                        <p> No notification if date is not set </p>
+                    </div>
+
+                    <div class="add-to-list">
+                        <p class="adding-to-list"> Add to List </p>
+                        <div class="user-preference-division">
+                            <div>
+                                <select class="user-preference-select"> 
+                                    <option value="Default">Default</option>
+                                    <option value="Personal">Personal</option>
+                                    <option value="Shopping">Shopping</option>
+                                    <option value="Wishlist">Wishlist</option>
+                                    <option value="Work">Work </option>
+                                </select> 
+                            </div>
+                            <img src="Vector.svg">
+                        </div>
+                    </div>
+
+                    <div class="done-button">
+                        <img class="done-image" src="teenyicons--tick-circle-solid.svg">
+                    </div>
+
+                </div>
+
+                
+            </div>
+        </div>
+
+    
+    </body>
+</html>
