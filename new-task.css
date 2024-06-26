@@ -12,7 +12,7 @@ body{
     justify-content: center;
 }
 .app-division-add-first-task{
-    width: 375px;
+    width: 340px;
     border-style: none;
     height: 670px;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
@@ -54,13 +54,12 @@ body{
 }
 .line {
     border-top: 2px solid rgb(96, 209, 243); /* You can adjust the color, width, and style */
-    width: 300px; /* Adjust the width of the line */
-    margin-right: 15px;
+    width: 250px; /* Adjust the width of the line */
   }
 .user-task-input{
     border: none;
     font-size: 18px;
-    width: 300px;
+    width: 280px;
 }
 .user-input-division{
     margin-top: 15px;
